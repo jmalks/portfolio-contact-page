@@ -1,0 +1,107 @@
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: "Linden Hill";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+#pic-of-me {
+    height: 23em;
+    width: 21em;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 30%;
+    font-size: 1.2em;
+}
+
+.nav-button {
+    display: inline-flex;
+    margin-right: 5%;
+}
+
+.about-me-container {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#about-spacer {
+    flex-grow: .17;
+}
+
+.skills-container {
+    display: inline-flex;
+}
+
+.logo {
+    height: 5em;
+    width: 5em;
+    overflow:hidden; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(78, 154, 78);
+}
+
+a:hover {
+    color: orchid;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+a:visited:hover {
+    color: orchid;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+li {
+    font-size: 1.25em;
+    list-style-type: '🐉   ';
+}
+
+#fun-gif {
+    border-radius: 10%;
+    margin-top: 3%;
+}
+
+#icon-container img {
+    margin-right: 3%;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+    #pic-of-me {
+        height: 15em;
+        width: 13em;
+        border-radius: 50%;
+    }
+    #fun-gif {
+        height: 10em;
+        width: 13emm;
+        border-radius: 10%;
+        margin-top: 3%;
+    }
+}
